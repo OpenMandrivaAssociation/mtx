@@ -1,7 +1,7 @@
 Summary:	Controls the robotic mechanism in DDS Tape drive autoloaders
 Name:		mtx
 Version:	1.2.18
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		Archiving/Backup
 License:	GPL
 URL:		http://sourceforge.net/projects/mtx
