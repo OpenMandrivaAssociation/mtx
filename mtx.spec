@@ -9,6 +9,7 @@ Source0:	ftp://ftp.badtux.net/pub/storage/mtx/%{name}-%{version}rel.tar.bz2
 Patch0:		mtx-1.2.18-portable.patch
 Patch1:		mtx-1.2.18rel-dce.patch
 Patch2:		mtx-1.2.18rel-gcc4.patch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description 
 The MTX program controls the robotic mechanism in autoloaders and tape
