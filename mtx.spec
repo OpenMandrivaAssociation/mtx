@@ -4,7 +4,7 @@ Version:	1.3.12
 Release:	4
 Group:		Archiving/Backup
 License:	GPLv2
-URL:		http://sourceforge.net/projects/mtx
+URL:		https://sourceforge.net/projects/mtx
 Source0:	ftp://ftp.opensource-sw.net/pub/mtx/development/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
