@@ -8,6 +8,11 @@ URL:		https://sourceforge.net/projects/mtx
 Source0:	ftp://ftp.opensource-sw.net/pub/mtx/development/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description 
 The MTX program controls the robotic mechanism in autoloaders and tape
 libraries such as the HP SureStore DAT 40x6, Exabyte EZ-17, and
